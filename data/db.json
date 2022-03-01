@@ -1,10 +1,16 @@
 {
   "blogs": [
     {
-      "title": "Hi",
-      "body": "My first Blog",
+      "title": "First Project",
+      "body": "Hello, welcome to this blog. Feel free to add or remove blogs.",
       "author": "tom",
-      "id": 1
+      "id": 2
+    },
+    {
+      "title": "Another Blog",
+      "body": "Another Content",
+      "author": "kingson",
+      "id": 3
     }
   ]
 }
