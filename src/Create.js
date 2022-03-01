@@ -2,6 +2,8 @@
 import { useState } from "react";
 import { useHistory } from 'react-router-dom';
 
+const baseURL = "https://my-blog-s-kingsonwong-projects.herokuapp.com";
+
 const Create = () => {
 
     const [title, setTitle] = useState('');
@@ -15,7 +17,7 @@ const Create = () => {
         const blog = { title, body, author};
 
         setIsPending(true);
-        fetch('http://localhost:8000/blogs', {
+        fetch(baseURL+'/blogs', {
             method: 'POST',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(blog)
