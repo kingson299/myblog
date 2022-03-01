@@ -1,5 +1,8 @@
 import BlogList from './BlogList';
 import useFetch from './useFetch'
+
+const baseURL = "https://my-blog-s-kingsonwong-projects.herokuapp.com";
+
 const Home = () => {
 
     const { data: blogs, isPending, error }  = useFetch(baseURL+"/blogs");
