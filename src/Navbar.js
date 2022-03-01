@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return ( 
@@ -6,12 +6,12 @@ const Navbar = () => {
             <nav className="navbar">
                 <h1>Blog</h1>
                 <div className="links">
-                    <a href="/">Home</a>
-                    <a href="/create" style={{
+                    <Link to="/">Home</Link>
+                    <Link to="/create" style={{
                         color: "white",
                         backgroundColor: '#3557f1',
                         borderRadius: '8px'
-                    }}>New Blog</a>
+                    }}>New Blog</Link>
                 </div>
             </nav>
 
