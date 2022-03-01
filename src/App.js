@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import NavBar from "./Navbar"
 import Home from "./Home"
 import Create from './Create'
